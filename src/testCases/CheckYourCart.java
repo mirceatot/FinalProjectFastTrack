@@ -16,7 +16,7 @@ public class CheckYourCart {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("web-driver.chrome.driver", "pathToYour/chromedriver.exe");
+        System.setProperty("web-driver.chrome.driver", "\"C:\\Users\\Orange\\Downloads\\chromedriver.exe\"");
         driver = new ChromeDriver();
         driver.get("https://fasttrackit-test.netlify.app/#/");
         home = new HomePage(driver);

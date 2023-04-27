@@ -17,7 +17,7 @@ public class AddProductToYourCart {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("web-driver.chrome.driver", "\"C:\\Users\\florin.stefan\\Desktop\\fasttrackit\\QA 32\\chromedriver_win32\\chromedriver.exe\"");
+        System.setProperty("web-driver.chrome.driver", "\"\"C:\\Users\\Orange\\Downloads\\chromedriver.exe\"");
         driver = new ChromeDriver();
         driver.get("https://fasttrackit-test.netlify.app/#/");
         home = new HomePage(driver);

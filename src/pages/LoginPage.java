@@ -21,7 +21,7 @@ public class LoginPage {
     //Locator for login button
     By loginButton = By.xpath("/html/body/div[3]/div/div/div[2]/div/form/button");
 
-    //Loator for logout button
+    //Locator for logout button
 
     By logoutButton = By.xpath("/html/body/div/div/div[1]/nav/div/div[2]/span/span/button");
 
